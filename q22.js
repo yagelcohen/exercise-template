@@ -5,8 +5,6 @@
 //     output.innerText = out;
 // }
 
-
-
     const myArray= [100, 2, 1, 10]
     const isArray=[10, 2, 1 , 3]
     let newArray=[]
