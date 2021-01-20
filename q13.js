@@ -11,11 +11,7 @@ function run() {
     x += 1;
     output.innerText = out;
 }
-   function display_array(){
-       
+   function display_array(){  
         document.write(myArray)
    }
 
-// for(i=0; i<myArray.length; i++)
-// document.write(myArray[i])
-// }
