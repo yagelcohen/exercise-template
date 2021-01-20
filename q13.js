@@ -1,11 +1,21 @@
 "use strict"
-const array = []
-array.push(input)
+let out = "";
+const myArray=[]
+let x = 0;
 
 function run() {
     const input = document.getElementById("input").value;
     const output = document.getElementById("output");
-    let out = "";
-
+    myArray.push(input);
+    out=out + `element ${x} = ${input}\n`;
+    x += 1;
     output.innerText = out;
 }
+   function display_array(){
+       
+        document.write(myArray)
+   }
+
+// for(i=0; i<myArray.length; i++)
+// document.write(myArray[i])
+// }
